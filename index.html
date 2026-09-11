@@ -5,6 +5,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>COLOR.M — 컬러 · 디자인 · AI 교육</title>
 <meta name="description" content="퍼스널컬러 컨설팅부터 컬러·디자인 교육, AI 그림책 제작과 출판까지. COLOR.M은 당신의 이미지와 가능성을 확장합니다.">
+
+<!-- 브라우저 탭 아이콘 (COLOR.M 로고의 핑크 'm' 마크) -->
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAD4UlEQVR4nO2Vz09dRRTHv2dm7n3cy49XCAWNJG5oUmjZudRAXFU3ri4b05i4Msa1FRe93KSNKdYYYyIbFlYTF7DrHyCSmG40jYo83bS1SqrWouHH4/HunZmviwf0PSBBTKsbPqt7Z85kvmfmO+cAxxxzzBEgKClSRaSKgBAUJolmkmgiVa2xECJVTBI9i0QTkP9AYKoaAhN94Hwyu2/8SKp+OzvRX4gLehBhpX1txa3pcllHpyytCpT6ufu7y3d2Yj8YPFc63/HMaUd2B6Kqy/nKD2crH20QFIHwXwn4Y2TiZqSCoYLOW/IegN52HZ7wJBx8XSifV6X+Oq08VzbhxQIcNKLgSQBcrnv/4cnFy1NEqgQZAVAdsmcLAokCpds8EEcqGNSiTmz5AlssfEFXatfBC4b6ZmzMJyJqsKBj7i1ybx2Bgd6w48rvIxemBZlnmsq+EyAgGE0b97QAL8h86wm8/X2sw+GaL7wAEqtAVV1eE5GoJAabPnclZXROx1C0EID1bjPWYVzzBQEU3ToK79nVlwYW370+P5oa05ohiIXMNgsSgM0hAghIhMrImqtfWIX7rIOqXwHX2lU4XPO2KCljLP1PNVuctyV/21r3YizhdE6nHOlLYl4DcH2sr0KzmzmApeEkeNKcerVNgice2OqnsnT1VopUZU0n4ekRqUBXmS/2L74ztT28/OuZiffLYTBTY+E6VRjct9VrT1WufLk9P3N/ZOKVTl16dpM5QBmaH02NzGW24YE0FQHQpwdneoKu6ViHaacq3Xgw8ubAJDIS3L0qAgiUhgA/Eqni02kbkSoY3N6ihQDKgfAev8wi0Rx4L5pFoiFy96Eh0db910YJABRBkSzzldNv9SjI+KrdyFdsdaM7iPrqkHMC8IvRSd0sQAA47zcFmUd7wyuhVXVPghQhCC92axxzDm3Gj2PO7fXbDkogIChDqrTugVtlHYdtEnQU9DCeFQAYG4Pfv1TY+uu4P+ZwVCOpSZFKlucuf3ndbs2LYGnFVt/oX5q6QaRKsuwAAY8GAwA7z22gcvUbAM83B+x9io+aPQ0kVTuGY3JwPX+sAgSZ36nTMjfn9gYLYElaElYELfMURZIWgCVhtezxjcCRD9cfKOAwPNjbZWITBLEhWW7NhEGHiU2nLkVBEBtLRACA4s+G+4lyEMSm28RGBCeNrQmw7YF/CgWXVm2tN/YFIPItAKBScQ1x7s663byY0/ouQHlRXwEA7p4pAMALPi6Kza83bA4HX92KbP0oez82jtSO50dTM7b9PbdQ4XaBAbCnkQGYXIBvLuFEojE6vLufNPWcY4455n/lb2FR5YZE2fpBAAAAAElFTkSuQmCC">
+<link rel="apple-touch-icon" sizes="180x180" href="data:image/png;base64,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">
+
+<!-- 소셜 공유(카카오톡 · 페이스북 · 인스타 등) 시 미리보기 카드에 쓰이는 정보 -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="COLOR.M">
+<meta property="og:title" content="COLOR.M — 컬러 · 디자인 · AI 교육">
+<meta property="og:description" content="퍼스널컬러 컨설팅부터 컬러·디자인 교육, AI 그림책 제작과 출판까지. COLOR.M은 당신의 이미지와 가능성을 확장합니다.">
+<meta property="og:url" content="https://colorm.net/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="COLOR.M — 컬러 · 디자인 · AI 교육">
+<meta name="twitter:description" content="퍼스널컬러 컨설팅부터 컬러·디자인 교육, AI 그림책 제작과 출판까지.">
+
+<!--
+  참고: 카카오톡/페이스북 등에 링크가 공유될 때 함께 뜨는 미리보기 "사진"(og:image)은
+  이 파일처럼 이미지가 코드 안에 내장된 형태로는 넣을 수 없고, 실제로 웹에 별도 파일로
+  올라가 있는 이미지 주소가 있어야 합니다. 나중에 대표 이미지 1장(예: hero.jpg)을
+  index.html과 함께 별도 파일로도 깃허브에 올려주시면, 그 주소를 og:image로 연결해서
+  공유 시 사진이 함께 보이도록 추가해드릴 수 있습니다.
+-->
+
+<!--
+  구글 애널리틱스(GA4) 연결 안내:
+  1) analytics.google.com 에서 무료 계정/속성을 만들면 "G-XXXXXXXXXX" 형태의 측정 ID를 받습니다.
+  2) 그 ID를 알려주시면 아래에 연동 코드를 추가해드립니다. (직접 추가하실 경우, Google이 제공하는
+     "Google 태그(gtag.js)" 스니펫 두 줄을 이 위치에 붙여넣으시면 됩니다.)
+  이걸 연결하면 하루 방문자 수, 어떤 버튼을 많이 누르는지, 문의폼까지 도달하는 비율 등을
+  숫자로 확인할 수 있습니다.
+-->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500;700;900&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
@@ -136,8 +169,6 @@
     .why-row { flex-direction:column; }
     .why-row .ph { width:100% !important; height:200px; }
     .contact-row { flex-direction:column; }
-    .tools-row { flex-direction:column; align-items:flex-start !important; gap:16px; }
-    .tools-row .btn-text { align-self:flex-start; }
     .book-row { flex-direction:column; }
     .book-row > div:first-child { width:100% !important; max-width:180px; }
     .tool-thumb { width:100% !important; max-width:260px !important; height:auto !important; aspect-ratio:1/1; margin:0 auto 4px; }
@@ -313,7 +344,6 @@
         <b class="mono" style="font-size:11px; color:#8a8375;">출간예정 · 4인 공저</b>
         <h4 style="font-size:17px; font-weight:700;">『컬러코드16』</h4>
         <p class="sub" style="font-size:13.5px;">컬러심리 기반 16가지 컬러 유형으로 얼굴타입 · 퍼스널컬러 · 컬러리더십 · 퍼스널공간으로 풀어낸 새로운 컬러 시스템의 방향을 제시하는 책입니다. 컬러엠 대표 유미란강사는 퍼스널컬러 파트를 집필했습니다.</p>
-        <span class="btn-text card-cta" style="margin-top:16px;"><span>컬러코드16 홈페이지</span><span>→</span></span>
       </div>
     </div>
     <div class="card card-hover book-row" style="margin-top:14px; padding:22px; display:flex; gap:22px; align-items:center;">
@@ -464,11 +494,11 @@
       </div>
       <div class="field">
         <label>관심분야</label>
-        <div class="row gap10" style="flex-wrap:wrap;" id="chipGroup">
-          <button type="button" class="chip" data-value="퍼스널컬러">○ 퍼스널컬러</button>
-          <button type="button" class="chip" data-value="컬러·디자인 교육">○ 컬러·디자인 교육</button>
-          <button type="button" class="chip active" data-value="AI 그림책" style="border-color:#ff2d86; color:#ff6fac;">○ AI 그림책</button>
-          <button type="button" class="chip" data-value="기업·학교·기관 강의">○ 기업·학교·기관 강의</button>
+        <div class="row gap10" style="flex-wrap:wrap;" id="chipGroup" role="group" aria-label="관심분야 선택 (하나만 선택)">
+          <button type="button" class="chip" data-value="퍼스널컬러" aria-pressed="false">○ 퍼스널컬러</button>
+          <button type="button" class="chip" data-value="컬러·디자인 교육" aria-pressed="false">○ 컬러·디자인 교육</button>
+          <button type="button" class="chip active" data-value="AI 그림책" aria-pressed="true" style="border-color:#ff2d86; color:#ff6fac;">○ AI 그림책</button>
+          <button type="button" class="chip" data-value="기업·학교·기관 강의" aria-pressed="false">○ 기업·학교·기관 강의</button>
         </div>
       </div>
       <div class="field">
@@ -523,10 +553,12 @@
         c.classList.remove('active');
         c.style.borderColor = '';
         c.style.color = '';
+        c.setAttribute('aria-pressed', 'false');
       });
       chip.classList.add('active');
       chip.style.borderColor = '#ff2d86';
       chip.style.color = '#ff6fac';
+      chip.setAttribute('aria-pressed', 'true');
     });
   });
 
@@ -537,6 +569,7 @@
       c.classList.toggle('active', match);
       c.style.borderColor = match ? '#ff2d86' : '';
       c.style.color = match ? '#ff6fac' : '';
+      c.setAttribute('aria-pressed', match ? 'true' : 'false');
     });
     document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
     document.getElementById('navToggle').checked = false;
@@ -578,7 +611,7 @@
         note.textContent = '문의가 접수되었습니다. 곧 연락드리겠습니다. 감사합니다!';
         document.getElementById('contactForm').reset();
         document.querySelectorAll('#chipGroup .chip').forEach(function (c) {
-          c.classList.remove('active'); c.style.borderColor = ''; c.style.color = '';
+          c.classList.remove('active'); c.style.borderColor = ''; c.style.color = ''; c.setAttribute('aria-pressed', 'false');
         });
       }).catch(function () {
         note.textContent = '전송 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.';
