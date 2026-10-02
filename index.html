@@ -47,10 +47,10 @@
 <style>
   html { scroll-behavior: smooth; }
   * { box-sizing: border-box; }
-  body { margin:0; font-family:'IBM Plex Sans KR',sans-serif; background:#f5f1e8; word-break:keep-all; overflow-wrap:break-word; }
+  body { margin:0; font-family:'IBM Plex Sans KR',sans-serif; background:#fff; word-break:keep-all; overflow-wrap:break-word; }
   a { color:#171512; text-decoration:none; } a:hover { color:#ff2d86; }
   img { max-width:100%; }
-  .cream   { background:#f5f1e8; color:#171512; }
+  .cream   { background:#fff; color:#171512; }
   .dark    { background:#171512; color:#f5f1e8; }
   .wrap    { max-width:1120px; margin:0 auto; padding:0 80px; }
   .pad     { padding:88px 0; }
@@ -80,7 +80,7 @@
   .btn-outline { background:transparent; border:1px solid #171512; color:#171512; }
   .btn-outline:hover { background:#171512; color:#f5f1e8; }
   .btn-outline.on-dark { border-color:#f5f1e8; color:#f5f1e8; }
-  .btn-outline.on-dark:hover { background:#f5f1e8; color:#171512; }
+  .btn-outline.on-dark:hover { background:#fff; color:#171512; }
   .btn-text { font-family:'IBM Plex Mono',monospace; font-size:13.5px; font-weight:600; color:#171512; border:none; background:none; text-decoration:none; border-bottom:1.5px solid #171512; padding-bottom:2px; cursor:pointer; transition:color .16s ease,border-color .16s ease; }
   .btn-text:hover { color:#ff2d86; border-color:#ff2d86; }
   .card-cta { align-self:flex-start; }
@@ -88,7 +88,7 @@
   .nav-link { cursor:pointer; transition:color .16s ease; }
   .nav-link:hover { color:#ff2d86; }
   .card {
-    background:#fff; border:1px solid #e4ddce; border-radius:16px; padding:26px 22px;
+    background:#fff; border:1px solid #e8e8ec; border-radius:16px; padding:26px 22px;
     transition:border-color .16s ease, box-shadow .16s ease, transform .16s ease;
   }
   .card.on-dark { background:#221f22; border-color:#3a3538; }
@@ -108,7 +108,7 @@
   section { scroll-margin-top:76px; }
 
   /* ---- Header ---- */
-  header.site { position:sticky; top:0; z-index:50; background:#fff; border-bottom:1px solid #e4ddce; }
+  header.site { position:sticky; top:0; z-index:50; background:#fff; border-bottom:1px solid #e8e8ec; }
   .headrow { display:flex; align-items:center; justify-content:space-between; height:76px; padding:0 80px; }
   .headrow img.logo { height:24px; display:block; }
   .navlinks { display:flex; gap:32px; align-items:center; font-family:'IBM Plex Mono',monospace; font-size:13.5px; }
@@ -152,9 +152,9 @@
     .headrow img.logo { height:19px; }
     .navlinks {
       display:none; position:absolute; top:64px; left:0; right:0; background:#fff;
-      border-bottom:1px solid #e4ddce; flex-direction:column; align-items:flex-start; gap:0; padding:8px 20px 16px;
+      border-bottom:1px solid #e8e8ec; flex-direction:column; align-items:flex-start; gap:0; padding:8px 20px 16px;
     }
-    .navlinks .nav-link { padding:12px 0; width:100%; border-bottom:1px solid #efeadf; }
+    .navlinks .nav-link { padding:12px 0; width:100%; border-bottom:1px solid #f3f4f6; }
     .navlinks .btn { margin-top:12px; width:100%; }
     #navToggle:checked ~ .navlinks { display:flex; }
     .burger { display:flex; }
@@ -210,7 +210,7 @@
 <div id="top"></div>
 
 <!-- ============ HERO ============ -->
-<section class="cream pad">
+<section class="cream pad" style="background:#f3f4f6;">
   <div class="wrap row gap32 hero-row" style="align-items:center;">
     <div class="col gap20" style="flex:1.1;">
       <span class="eyebrow">COLOR × DESIGN × AI</span>
@@ -229,7 +229,7 @@
 </section>
 
 <!-- ============ 지금 나에게 필요한 것은? ============ -->
-<section id="need" class="cream pad-sm" style="border-top:1px solid #e4ddce;">
+<section id="need" class="cream pad-sm" style="border-top:1px solid #e8e8ec; background:#f3f4f6;">
   <div class="wrap">
     <div class="col gap8" style="margin-bottom:32px;">
       <span class="eyebrow">WHAT DO YOU NEED?</span>
@@ -262,7 +262,7 @@
 </section>
 
 <!-- ============ PERSONAL COLOR ============ -->
-<section id="personal-color" class="cream pad" style="border-top:1px solid #e4ddce;">
+<section id="personal-color" class="cream pad" style="border-top:1px solid #e8e8ec;">
   <div class="wrap">
     <div class="col gap8" style="margin-bottom:32px;">
       <span class="eyebrow">PERSONAL COLOR</span>
@@ -303,7 +303,7 @@
 </section>
 
 <!-- ============ COLOR & DESIGN ============ -->
-<section id="color-design" class="cream pad" style="border-top:1px solid #e4ddce; background:#efeadf;">
+<section id="color-design" class="cream pad" style="border-top:1px solid #e8e8ec; background:#f3f4f6;">
   <div class="wrap">
     <div class="col gap8" style="margin-bottom:32px;">
       <span class="eyebrow">COLOR &amp; DESIGN</span>
@@ -478,7 +478,7 @@
 </section>
 
 <!-- ============ WHY COLOR.M ============ -->
-<section class="cream pad" style="border-top:1px solid #e4ddce; background:#efeadf;">
+<section class="cream pad" style="border-top:1px solid #e8e8ec; background:#f3f4f6;">
   <div class="wrap">
     <div class="col gap8" style="margin-bottom:32px;">
       <span class="eyebrow">WHY COLOR.M</span>
