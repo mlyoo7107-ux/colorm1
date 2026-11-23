@@ -97,8 +97,8 @@
   .card.on-dark { background:#221f22; border-color:#3a3538; }
   .card-hover { cursor:pointer; }
   .sqcard { display:flex; flex-direction:column; }
-  .sqcard-media { width:100%; margin-bottom:14px; }
-  .sqcard-media img { width:100%; border-radius:10px; display:block; }
+  .sqcard-media { width:100%; margin-bottom:14px; aspect-ratio:1/1; overflow:hidden; border-radius:10px; }
+  .sqcard-media img { width:100%; height:100%; object-fit:cover; border-radius:10px; display:block; }
   .card.card-hover:hover { border-color:#ff2d86; box-shadow:0 8px 24px rgba(23,21,18,.08); transform:translateY(-2px); }
   .card.on-dark.card-hover:hover { border-color:#ff6fac; box-shadow:0 8px 24px rgba(0,0,0,.35); }
   .book-cover { cursor:pointer; transition:transform .18s ease; border-radius:10px; aspect-ratio:3/4; display:flex; align-items:flex-end; padding:14px; text-decoration:none; color:inherit; }
