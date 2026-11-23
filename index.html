@@ -87,6 +87,10 @@
   /* 캐릭터디자인 Maker 카드 — 보라 톤 (제품디자인은 핑크 톤) */
   .maker-card-purple .btn-text:hover { color:#6257A8; border-color:#6257A8; }
   .maker-card-coral .btn-text:hover { color:#B8390F; border-color:#B8390F; }
+  .maker-card-pink, .maker-card-purple, .maker-card-coral { cursor:pointer; transition:border-color .16s ease, box-shadow .16s ease, transform .16s ease; }
+  .maker-card-pink:hover { border-color:#ff2d86; box-shadow:0 8px 20px rgba(255,45,134,.18); transform:translateY(-2px); }
+  .maker-card-purple:hover { border-color:#6257A8; box-shadow:0 8px 20px rgba(98,87,168,.18); transform:translateY(-2px); }
+  .maker-card-coral:hover { border-color:#B8390F; box-shadow:0 8px 20px rgba(184,57,15,.18); transform:translateY(-2px); }
   .card-cta > span:first-child { margin-right:8px; }
   .nav-link { cursor:pointer; transition:color .16s ease; }
   .nav-link:hover { color:#ff2d86; }
@@ -372,7 +376,7 @@
       <h4 style="font-size:17px; font-weight:700; margin:6px 0 4px;">COLOR.M AI Maker 시리즈</h4>
       <p class="sub" style="font-size:13.5px; margin:0 0 16px;">질문에 답하기만 하면, AI 이미지 생성에 바로 쓸 수 있는 프롬프트가 완성됩니다.</p>
       <div class="row gap12" style="flex-wrap:wrap; align-items:stretch;">
-        <a href="https://mlyoo7107-ux.github.io/PRODUCT-DESIGN-MAKER/pro-preview.html" target="_blank" rel="noopener" style="flex:1; min-width:160px; text-decoration:none; color:inherit; background:#fff5fa; border:1px solid #ffd1e6; border-radius:10px; padding:10px; overflow:hidden;">
+        <a class="maker-card-pink" href="https://mlyoo7107-ux.github.io/PRODUCT-DESIGN-MAKER/pro-preview.html" target="_blank" rel="noopener" style="flex:1; min-width:160px; text-decoration:none; color:inherit; background:#fff5fa; border:1px solid #ffd1e6; border-radius:10px; padding:10px; overflow:hidden;">
           <img src="product-design-maker-card-v2.webp" alt="제품디자인 Maker" style="width:100%; border-radius:6px; display:block;">
           <b style="display:block; font-size:14px; margin-top:8px; font-family:'Gothic A1',sans-serif;">제품디자인 Maker</b>
           <span class="btn-text card-cta" style="margin-top:6px; display:inline-flex; align-items:center; gap:4px; font-size:12.5px;"><span>자세히 보기</span><span>→</span></span>
